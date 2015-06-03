@@ -6,10 +6,10 @@ cat >> /home/vagrant/.bashrc <<EOF
 DEBEMAIL="florian@margaine.com"
 DEBFULLNAME="Florian Margaine"
 export DEBEMAIL DEBFULLNAME
+EOF
 
 sudo apt-get update
-sudo apt-get install build-essential python-stdeb -y
-EOF
+sudo apt-get install python3 python3-all build-essential python-stdeb -y
 SCRIPT
 
 # All Vagrant configuration is done below. The "2" in Vagrant.configure
