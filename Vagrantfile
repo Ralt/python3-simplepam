@@ -8,7 +8,7 @@ DEBFULLNAME="Florian Margaine"
 export DEBEMAIL DEBFULLNAME
 
 sudo apt-get update
-sudo apt-get install build-essential python-stdeb
+sudo apt-get install build-essential python-stdeb -y
 EOF
 SCRIPT
 
