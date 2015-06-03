@@ -7,7 +7,8 @@ DEBEMAIL="florian@margaine.com"
 DEBFULLNAME="Florian Margaine"
 export DEBEMAIL DEBFULLNAME
 
-apt-get install build-essential python-stdeb
+sudo apt-get update
+sudo apt-get install build-essential python-stdeb
 EOF
 SCRIPT
 
